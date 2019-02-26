@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+i {
+  font-style: normal;
+}
+
+input {
+  outline: none;
+}
+
+strong {
+  font-style: normal;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+wx-view {
+  display: block;
+}
+
+wx-text {
+  display: inline;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.f7_con {
+  background: #f7f7f7;
+  min-height: 100vh;
+  height: 100%;
+}
+
+// 轮播图小圆点
+.mint-swipe-indicators {
+  right: 0;
+  left: auto;
+}
+
+// 轮播图小圆点
+.mint-swipe-indicator {}
+
+// 轮播图小圆点激活状态
+.mint-swipe-indicator.is-active {}
+
+.mint-popup-bottom {
+  width: 100%;
+  font-size: 26px;
+}
+
+.picker-slot-wrapper {
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.picker-item {
+  font-size: 26px;
+  margin-bottom: 10px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.picker-item.picker-selected {
+  border-top: 2px solid #31b530;
+  border-bottom: 2px solid #31b530;
+}
+
+.mint-datetime {
+  height: 400px;
+}
+
+.mint-datetime .picker-item {
+  font-size: 26px;
+  margin-bottom: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.mint-datetime-action {
+  height: 80px;
+  line-height: 80px;
+  font-size: 26px;
+  color: #31b530;
+}
+
+.picker-toolbar {
+  height: 80px;
+}
+
+.picker-toolbar-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80px;
+}
+
+.usi-btn-cancel,
+.usi-btn-sure {
+  color: #07c160;
+  width: 50%;
+  text-align: center;
+  line-height: 80px;
+}
+
+.fade-enter-active {
+  animation: fadeIn 0.2s forwards;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s linear;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.toast {
+  width: 300px;
+  font-size: 28px;
+  border-radius: 15px;
+  z-index: 9999999;
+}
+
+.toast span {
+  font-size: 30px
+}
+.opc-enter-active, .opc-leave-active {
+  transition: opacity .4s;
+}
+.opc-enter, .opc-leave-to {
+  opacity: 0;
+}
+@keyframes fadeIn {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
